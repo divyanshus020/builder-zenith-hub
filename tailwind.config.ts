@@ -14,9 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        'romantic': ['Dancing Script', 'Lobster', 'cursive'],
-        'playful': ['Quicksand', 'Poppins', 'sans-serif'],
-        'elegant': ['Playfair Display', 'serif'],
+        romantic: ["Dancing Script", "Lobster", "cursive"],
+        playful: ["Quicksand", "Poppins", "sans-serif"],
+        elegant: ["Playfair Display", "serif"],
       },
       colors: {
         // Romantic color palette
@@ -125,7 +125,7 @@ export default {
             height: "0",
           },
         },
-        "float": {
+        float: {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-10px)" },
         },
@@ -154,7 +154,7 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "float": "float 3s ease-in-out infinite",
+        float: "float 3s ease-in-out infinite",
         "pulse-soft": "pulse-soft 2s ease-in-out infinite",
         "bounce-soft": "bounce-soft 1s infinite",
         "heart-beat": "heart-beat 1.5s ease-in-out infinite",
